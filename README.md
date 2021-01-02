@@ -1,2 +1,2 @@
 # CTF-WriteUps
-All CTF WriteUps and Walk Throughs in this Repo
+This Repos have all MY CTF WriteUps and Walk Throughs 
