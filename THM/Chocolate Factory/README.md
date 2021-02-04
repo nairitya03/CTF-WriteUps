@@ -2,10 +2,9 @@
 
 <https://tryhackme.com/room/chocolatefactory>
 ----------------------------------------------
-![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Chocolate%20Factory/Screenshots/1.png)
+![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Chocolate%20Factory/Screenshots/1.png){ width="800" height="600" style="display: block; margin: 0 auto" }
 
 So lets Dive in…
-First copy the _Machine IP_ in a text file target.txt
 
 Began with a nmap scan..
 ```bash 
