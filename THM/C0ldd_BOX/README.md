@@ -6,7 +6,8 @@ So lets start with some nmap scan to enumerate which all ports are open.
 ```bash
 $ sudo nmap -T4 -sV -A target > nmap_scan.txt 
 ```
-![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/1.png=100x20)
+<img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/1.png" width="200">
+
 
 So port 80 is open that I already knew by opening the ip in web browser.
 Since it was a web page I began directory search to see is there any broken
