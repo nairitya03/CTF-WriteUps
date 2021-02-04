@@ -1,7 +1,7 @@
 # CTF-WriteUps
 **This Repo have all MY CTF WriteUps and Walkthroughs.**
 
-## <p style="text-align:center;"> [TryHackMe Writeup](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/ ) </p>
+<h3 align="center"> [TryHackMe Writeup](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/ ) </h3>
 
 <p align='center'><img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='150'></p>
 
@@ -11,4 +11,4 @@
 
 <p align='center'> <img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='150'></p>
 
-## <p style="text-align:center;">Learn for free</p> [GrimmCon 2020](https://github.com/nairitya03/CTF-WriteUps/tree/main/GrimmCon%20CTF%202020/) </p>
+## <p style="text-align:center;">  [GrimmCon 2020](https://github.com/nairitya03/CTF-WriteUps/tree/main/GrimmCon%20CTF%202020/) </p>
