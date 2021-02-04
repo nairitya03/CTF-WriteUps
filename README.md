@@ -3,7 +3,7 @@
 
 <p align='center'><img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='150'></p>
 
-[TryHackMe Writeup](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/ )
+## <p align="centre"> [TryHackMe Writeup](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/ ) </p>
 
   - [x] [C0ldd_BOX](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/C0ldd_BOX)
   - [x] [Chocolate Factory](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/Chocolate%20Factory)
