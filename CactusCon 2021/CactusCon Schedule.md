@@ -1,10 +1,10 @@
 # Friday, February 5
 ## Opening
-9:30 PM IST – 10:30 PM IST Friday, Talks  
+9:30 PM(5 FEB) IST – 10:30 PM(5 FEB) IST Friday, Talks  
 
 ## Keynote: Eva Galperin
 Eva Galperin
-10:30 PM IST – 11:30 PM IST Friday, Talks 
+10:30 PM(5 FEB) IST – 11:30 PM(5 FEB) IST Friday, Talks 
 
 ## Workshop: Violent Python 3
 Sam Bowne, Elizabeth Biddlecome
