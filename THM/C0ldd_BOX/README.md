@@ -44,7 +44,7 @@ $ sudo nc -lvnp 8000
 ```
 and got a reverse shell by activating our plugin and found that www-data
 user have very less permissions thus I enumerated the target using
-[linpeas.sh]( https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS ).Download the linpeas.sh file form Github on your
+[LinPEAS ]( https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS ).Download the linpeas.sh file form Github on your
 machine,cd to the downloaded directory and start a simple python server on
 your machine 
 ```bash 
