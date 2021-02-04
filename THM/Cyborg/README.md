@@ -1,4 +1,4 @@
-![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/1.png=200*300?style=centerme)
+![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/1.png =200*300?style=centerme)
 # Cyborg
 Link: <https://tryhackme.com/room/cyborgt8> 
 By [@fieldraccoon](https://twitter.com/fieldraccoon)
