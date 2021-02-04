@@ -1,6 +1,7 @@
 # CTF-WriteUps
 **This Repo have all MY CTF WriteUps and Walkthroughs.**
-*************************************************************************************************************************
+
+************************
 
 <img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='140'> 
 
@@ -10,7 +11,7 @@
   - [x] [Chocolate Factory](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/Chocolate%20Factory)
   - [x] [Cyborg](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/Cyborg)
 
-**************************************************************************************************
+************************
 
 <img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='110'>
 
