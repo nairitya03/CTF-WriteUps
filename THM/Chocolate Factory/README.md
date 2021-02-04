@@ -46,7 +46,7 @@ $ steghide --extract -sf gum_room.jpg
 Extracted file seems to be some kind of encryption so lets jump to
 [Cyberchef]( https://gchq.github.io/CyberChef/ ), upload & decrypt it and save output to a file hash.txt
 
-<img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Chocolate%20Factory/Screenshots/6.png" width="550" >
+<p align="center"><img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Chocolate%20Factory/Screenshots/6.png" width="550" ></p>
 
 It looks like user and password hashes, So lets crack hash…
 ```bash 
