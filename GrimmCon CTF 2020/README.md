@@ -71,6 +71,7 @@ found the first link a to reddit account. The Description of the account had som
 encrypted msg.
 
 ![4.1](https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/4.1.png)
+![4.2](https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/4.2.png)
 
 I jumped to [CyberChef](https://gchq.github.io/CyberChef/) ( _SwissKnife for Ecryption/Decryption_ ) and decoded it with Magic recipe. And it was
 decoded by URL_decoder and gave the _flag{66b15347c58c91d1937f0b40e973d3f6}_.
