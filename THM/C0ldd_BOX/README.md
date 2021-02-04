@@ -112,4 +112,5 @@ $ cat /mnt/root/root.txt
 ```
 
 <p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/9.png" width="550" ></p>
+
 > With that the we rooted the box.
