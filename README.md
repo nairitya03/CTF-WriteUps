@@ -11,7 +11,8 @@
   - [x] [Cyborg](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/Cyborg)
 
 **************************************************************************************************
-img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='150'>
+
+<img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='150'>
 
 [GrimmCon 2020](https://github.com/nairitya03/CTF-WriteUps/tree/main/GrimmCon%20CTF%202020/)
 
