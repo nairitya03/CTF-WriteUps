@@ -1,4 +1,4 @@
-#  		Chocolate Factory
+#  	                                                                               Chocolate Factory
 <https://tryhackme.com/room/chocolatefactory>
 ----------------------------------------------
 ![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Chocolate%20Factory/Screenshots/1.png)
