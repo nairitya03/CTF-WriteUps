@@ -6,7 +6,7 @@ So lets start with some nmap scan to enumerate which all ports are open.
 ```bash
 $ sudo nmap -T4 -sV -A target > nmap_scan.txt 
 ```
-<img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/1.png" width="600" align="centre">
+<img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/1.png" width="900" >
 
 
 So port 80 is open that I already knew by opening the ip in web browser.
