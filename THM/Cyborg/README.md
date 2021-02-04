@@ -96,4 +96,4 @@ and echo it, basically it can run bash commands.
 
 <p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/14.png" width="550" ></p>
 
-With that > Cyborg is rooted.
+With that Cyborg is rooted.
