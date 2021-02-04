@@ -46,7 +46,7 @@ So we found a hash before lets crack it. John the Ripper is a great tool for it.
 $ john --fork=4 --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
 ```
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/7.png" width="550" ></p>
+<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/7.png" width="400" ></p>
 
 #### 4. Research
 Now lets take a look at archive.tar file, extract it with tar 
@@ -55,7 +55,7 @@ $ tar -xf archive
 ```
 Exploring the extracted files revealed a Readme file.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/8.png" width="550" ></p>
+<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/8.png" width="400" ></p>
 
 After a little research I found about borg, what it is and how it is used.
 So as its borg archive unpack it using borg to a directory unziped.
@@ -73,7 +73,7 @@ There we have it a username and password. Lets ssh in target machine.
 ssh into target with the username and password found and there we have it
 our user flag.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/11.png" width="550" ></p>
+<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/11.png" width="400" ></p>
 
 
 #### 6. Privilege Escalation
@@ -83,7 +83,7 @@ $ sudo -l
 ```
 Seems like there is nopasswd sudo access on _backup.sh_ file. Lets exploit it.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/12.png" width="550" ></p>
+<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/12.png" width="400" ></p>
 
 
 #### 7. Source Code Analysis
