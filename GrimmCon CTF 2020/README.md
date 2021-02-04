@@ -1,5 +1,5 @@
-# > !@@! GrimmCon CTF - Writeup !@@!
-## (2020)
+> # !@@! GrimmCon CTF - Writeup (2020) !@@!
+
 ---------------------------------
 
 ### 1. Read The Rules (Warm Up) :
