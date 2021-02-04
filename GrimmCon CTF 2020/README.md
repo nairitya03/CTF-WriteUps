@@ -82,9 +82,8 @@ decoded by URL_decoder and gave the _flag{66b15347c58c91d1937f0b40e973d3f6}_.
 Download the zip file and extract the files. It is found that it contains only single binary
 file. Lets dive in and search for the required flag pattern in the binary.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/5.1.png" width="450" ></p>
-
 Use the string search command to get output and search for flag. Finally, found the valid flag _flag{e701f9290e2cd553be981461f8ea08e5}_.
 ```bash 
 strings memorandum.bin | grep flag
 ``` 
+<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/5.1.png" width="450" ></p>
