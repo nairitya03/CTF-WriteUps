@@ -2,7 +2,7 @@
 
 <https://tryhackme.com/room/chocolatefactory>
 ----------------------------------------------
-![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Chocolate%20Factory/Screenshots/1.png){ width="800" height="600" style="display: block; margin: 0 auto" }
+![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Chocolate%20Factory/Screenshots/1.png)
 
 So lets Dive in…
 
