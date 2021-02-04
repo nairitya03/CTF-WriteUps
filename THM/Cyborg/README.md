@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/1.png" width="550" ></p>
+<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/1.png" width="350" ></p>
 
 # Cyborg
 Link: <https://tryhackme.com/room/cyborgt8> 
@@ -10,7 +10,7 @@ A box involving encrypted archives, source code analysis and more.
 
 ####  1. Nmap
 So first start with a simple nmap scan to know what ports are open and what
-services are running on _ > target_Machine _.
+services are running on Target_Machine.
 ```bash 
 $ sudo nmap -T4 -sC -sS -A <machine_ip> >> nmap.out 
 ```
@@ -89,7 +89,7 @@ Seems like there is nopasswd sudo access on _backup.sh_ file. Lets exploit it.
 #### 7. Source Code Analysis
 Lets read whats happening in backup.sh
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/13.png" width="550" ></p>
+<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/Cyborg/Screenshots/13.png" width="400" ></p>
 
 And script has a small chunk of code which seems to take input with a flag c
 and echo it, basically it can run bash commands.
