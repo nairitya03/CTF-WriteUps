@@ -2,9 +2,7 @@
 **This Repo have all MY CTF WriteUps and Walkthroughs.**
 *************************************************************************************************************************
 
-<img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='70' vertical-align:middle;> <p display:inline-block;> 
-  
-[TryHackMe Writeup](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/) </p> 
+<img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='70'> [TryHackMe Writeup](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/) 
 
 [TryHackMe Writeup](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/) 
 
