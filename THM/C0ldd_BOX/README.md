@@ -4,7 +4,7 @@
 It is a cool box (literally). So lets start some Hacking …
 So lets start with some nmap scan to enumerate which all ports are open.
 ```bash
-_ # nmap -T4 -sV -A target > nmap_scan.txt_
+# nmap -T4 -sV -A target > nmap_scan.txt 
 
 ```
 ![1](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/1.png)
