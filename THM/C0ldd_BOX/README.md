@@ -13,8 +13,7 @@ So port 80 is open that I already knew by opening the ip in web browser.
 Since it was a web page I began directory search to see is there any broken
 access control.
 ```bash
-# gobuster dirb -u target:80 --wordlist /usr/share/wordlists/dirb/small.txt
--e -o dir.txt 
+# gobuster dirb -u target:80 --wordlist /usr/share/wordlists/dirb/small.txt -e -o dir.txt 
 ```
 ![2](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/2.png)
 
@@ -27,8 +26,7 @@ And since web page is made on wordpress and there is a login page, great
 option to bruteforce wordpress login is using wpscan.
 
 ```bash
-$ wpscan --url http://target/wp-login.php -e u -P
-/usr/share/wordlist/rockyou.txt 
+$ wpscan --url http://target/wp-login.php -e u -P /usr/share/wordlist/rockyou.txt 
 
 ```
 ![4](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/4.png)
@@ -57,8 +55,8 @@ run the shell script on the target machine.
 
 This gave away wp-config.php file that contained password of user _c0ldd_.
 To su to _c0ldd_ user we need a stable shell, stablizing shell by this great
-one-liner ```bash $ pyhton3 -c ‘import pty;pty.spawn(“/bin/bash”)  
-$ su c0ldd ``` and use password _cybersecurity_ to get access. Now cat the user.txt flag in
+one-liner ```bash $ pyhton3 -c ‘import pty;pty.spawn(“/bin/bash”)  $ su c0ldd ``` 
+and use password _cybersecurity_ to get access. Now cat the user.txt flag in
 /home/c0ldd directory ```bash $ cat /home/c0ldd/user.txt ```.
 
 ![7](https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/7.png)
