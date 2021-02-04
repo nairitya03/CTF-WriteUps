@@ -20,7 +20,7 @@ the valid flag _flag{90bc54705794a62015369fd8e86e557b}_.
 ### 2. Triple (Easy) :
 
 First look at the code "Ulc1amIyUnBibWNnWVNCdFp …." suggested that it is base64 encoded.
-I jumped to [_CyberChef_](https://gchq.github.io/CyberChef/)(_SwissKnife for Ecryption/Decryption_)  and decoded it with base64 recipe.
+I jumped to [CyberChef](https://gchq.github.io/CyberChef/) (_SwissKnife for Ecryption/Decryption_)  and decoded it with base64 recipe.
 But it didn't gave the flag.Then I recalled the name 'TRIPLE' which gave me idea to decrypt it 2 more time. Second Decryption gave a sweet message.
 
 ![2.1](https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/2.1.png)
@@ -57,12 +57,14 @@ def unzip(file):
 unzip('50.zip')
 
 ```
-_ cd _ to the folder which had zip file and run the script using the command _ python3
-zipzip.py && ./out/flag.txt _. After the script was complete there was a file named flag.txt
+cd to the folder which had zip file and run the script using the command 
+```bash
+$python3 zipzip.py && ./out/flag.txt 
+``` 
+After the script was complete there was a file named flag.txt
 which had the vaild flag _flag{cf97382071cb149aac8d6ab8baeaa3ee}_.
 
 ![3.1](https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/3.1.png)
-
 
 ### 4. wannabeel33t (OSINT):
 
@@ -83,4 +85,7 @@ file. Lets dive in and search for the required flag pattern in the binary.
 
 ![5.1](https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/5.1.png)
 
-Use the _ strings memorandum.bin | grep flag _ string search command to get output and search for flag. Finally, found the valid flag _flag{e701f9290e2cd553be981461f8ea08e5}_.
+Use the string search command to get output and search for flag. Finally, found the valid flag _flag{e701f9290e2cd553be981461f8ea08e5}_.
+```bash 
+strings memorandum.bin | grep flag
+``` 
