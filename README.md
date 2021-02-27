@@ -7,9 +7,9 @@
 
 [TryHackMe](https://tryhackme.com/) [Writeup](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/) 
 
-  - [x] [C0ldd_BOX](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/C0ldd_BOX)
-  - [x] [Chocolate Factory](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/Chocolate%20Factory)
-  - [x] [Cyborg](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/Cyborg)
+  - [C0ldd_BOX](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/C0ldd_BOX)
+  - [Chocolate Factory](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/Chocolate%20Factory)
+  - [Cyborg](https://github.com/nairitya03/CTF-WriteUps/tree/main/THM/Cyborg)
 
 ************************
 
