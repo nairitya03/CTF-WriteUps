@@ -1,5 +1,5 @@
 # CTF-WriteUps
-**This Repo have all MY CTF WriteUps and Walkthroughs.**
+**This Repository holds all MY CTF WriteUps and Walkthroughs.**
 
 ************************
 
