@@ -13,7 +13,7 @@ Special!!
 I decided to look the source code of the page and there it was, A Comment which had
 the valid flag _flag{90bc54705794a62015369fd8e86e557b}_.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/1.2.png" width="450" ></p>
+<p align="center"> <img src="./Screenshots/1.2.png" width="450" ></p>
 
 
 ### 2. Triple (Easy) :
@@ -22,11 +22,11 @@ First look at the code "Ulc1amIyUnBibWNnWVNCdFp …." suggested that it is base6
 I jumped to [CyberChef](https://gchq.github.io/CyberChef/) (_SwissKnife for Ecryption/Decryption_)  and decoded it with base64 recipe.
 But it didn't gave the flag.Then I recalled the name 'TRIPLE' which gave me idea to decrypt it 2 more time. Second Decryption gave a sweet message.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/2.1.png" width="450" ></p>
+<p align="center"> <img src="./Screenshots/2.1.png" width="450" ></p>
 
 Decrypting it again gave me a vaild flag _flag{39905d2148f4fdb7b025c23d684003cb}_.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/2.2.png" width="450" ></p>
+<p align="center"> <img src="./Screenshots/2.2.png" width="450" ></p>
 
 
 ### 3. ZipZip (Easy) :
@@ -63,7 +63,7 @@ $python3 zipzip.py && ./out/flag.txt
 After the script was complete there was a file named flag.txt
 which had the vaild flag _flag{cf97382071cb149aac8d6ab8baeaa3ee}_.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/3.1.png" width="450" ></p>
+<p align="center"> <img src="./Screenshots/3.1.png" width="450" ></p>
 
 ### 4. wannabeel33t (OSINT):
 
@@ -71,7 +71,7 @@ As the type of task suggest OSINT or Information Gathering.I started googling th
 found the first link a to reddit account. The Description of the account had some sort of
 encrypted msg.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/4.1.png" width="350" ></p><p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/4.2.png" width="250" ></p>
+<p align="center"> <img src="./Screenshots/4.1.png" width="350" ></p><p align="center"> <img src="./Screenshots/4.2.png" width="250" ></p>
 
 I jumped to [CyberChef](https://gchq.github.io/CyberChef/) ( _SwissKnife for Ecryption/Decryption_ ) and decoded it with Magic recipe. And it was
 decoded by URL_decoder and gave the _flag{66b15347c58c91d1937f0b40e973d3f6}_.
@@ -86,4 +86,4 @@ Use the string search command to get output and search for flag. Finally, found 
 ```bash 
 strings memorandum.bin | grep flag
 ``` 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/5.1.png" width="450" ></p>
+<p align="center"> <img src="./Screenshots/5.1.png" width="450" ></p>
