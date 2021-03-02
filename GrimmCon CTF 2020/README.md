@@ -1,6 +1,6 @@
 <h1> <p align="center">  GrimmCon CTF - Writeup (2020)  </p></h1>
 
-
+It was My very first CTF competition ever and a Great Experience, I was so happy to even solve a few of them without Help/Hints.
 
 ### 1. Read The Rules (Warm Up) :
 
