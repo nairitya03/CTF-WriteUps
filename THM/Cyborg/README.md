@@ -1,7 +1,7 @@
 <p align="center"> <img src="./Screenshots/1.png" width="350" ></p>
 
 # Cyborg
-Link: <https://tryhackme.com/room/cyborgt8> 
+Room Link: <https://tryhackme.com/room/cyborgt8> 
 By [@fieldraccoon](https://twitter.com/fieldraccoon)
 
 A box involving encrypted archives, source code analysis and more.
