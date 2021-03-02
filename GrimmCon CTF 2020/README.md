@@ -7,7 +7,7 @@
 When opened the _Read the Rules_ page it seemed to be an ordinary web page, Nothing
 Special!!
 
-<p align="center"> <img src="https://github.com/nairitya03/CTF-WriteUps/blob/main/GrimmCon%20CTF%202020/Screenshots/1.1.png" width="450" ></p>
+<p align="center"> <img src="./Screenshots/1.1.png" width="450" ></p>
 
 
 I decided to look the source code of the page and there it was, A Comment which had
