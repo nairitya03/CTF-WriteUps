@@ -1,4 +1,4 @@
-# GrimmCon CTF - Writeup (2020) 
+<h1> <p align="center">  GrimmCon CTF - Writeup (2020)  </p></h1>
 
 
 
