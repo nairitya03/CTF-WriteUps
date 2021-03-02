@@ -3,7 +3,7 @@
 <h1><p align="center"> Cyborg </p></h1>
 
 
-###A box involving encrypted archives, source code analysis and more.
+###A box involving encrypted archives, source code analysis and much more.
 ### Room Link: <https://tryhackme.com/room/cyborgt8> By [@fieldraccoon](https://twitter.com/fieldraccoon)
 
 
