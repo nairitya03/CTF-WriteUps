@@ -1,4 +1,4 @@
-# !@@! GrimmCon CTF - Writeup (2020) 
+# GrimmCon CTF - Writeup (2020) 
 
 ---------------------------------
 
