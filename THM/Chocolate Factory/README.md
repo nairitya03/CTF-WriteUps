@@ -1,10 +1,11 @@
+<p align="center"> <img src="./Screenshots/1.png"></p>
+
 # Chocolate Factory
 #### Room Link: <https://tryhackme.com/room/chocolatefactory>
 ----------------------------------------------
-<p align="center"> <img src="./Screenshots/1.png"></p>
-So lets Dive in…
 
-Began with a nmap scan..
+So lets Dive in…
+I always Began with a nmap scan..
 ```bash 
 $ sudo nmap -T4 -sV -sC target.txt
 ```
