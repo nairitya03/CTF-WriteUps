@@ -1,6 +1,6 @@
 <p align="center"> <img src="./Screenshots/1.png"></p>
 
-# <p align="center">Chocolate Factory </p>
+<h1><p align="center">Chocolate Factory </p></h1>
 
 
 
