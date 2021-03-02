@@ -1,4 +1,4 @@
-# [Chocolate Factory]
+# Chocolate Factory
 #### Room Link: <https://tryhackme.com/room/chocolatefactory>
 ----------------------------------------------
 <p align="center"> <img src="./Screenshots/1.png"></p>
