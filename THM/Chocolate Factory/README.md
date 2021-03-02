@@ -1,7 +1,7 @@
 <p align="center"> <img src="./Screenshots/1.png"></p>
 
-# <p align="center">Chocolate Factory
-#### Room Link: <https://tryhackme.com/room/chocolatefactory></p>
+# <p align="center">Chocolate Factory </p>
+####  <p align="center">Room Link:<https://tryhackme.com/room/chocolatefactory> </p>
 ----------------------------------------------
 
 So lets Dive in…
