@@ -65,7 +65,7 @@ which had the vaild flag _flag{cf97382071cb149aac8d6ab8baeaa3ee}_.
 
 <p align="center"> <img src="./Screenshots/3.1.png" width="450" ></p>
 
-### 4. wannabeel33t (OSINT):
+### 4. Wannabeel33t (OSINT):
 
 As the type of task suggest OSINT or Information Gathering.I started googling the name and
 found the first link a to reddit account. The Description of the account had some sort of
