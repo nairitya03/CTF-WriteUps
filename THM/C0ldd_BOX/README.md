@@ -1,5 +1,5 @@
-#  <p align="center">C0ldd BOX</p>
-####  <p align="center">Room Link: <https://tryhackme.com/room/colddboxeasy></P>
+#  <p align="center"> C0ldd BOX</p>
+####  <p align="center"> Room Link: <https://tryhackme.com/room/colddboxeasy></P>
 -------------------------
 It is a cool box (literally). So lets start some Hacking …
 So lets start with some nmap scan to enumerate which all ports are open.
