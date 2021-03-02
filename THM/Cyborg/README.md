@@ -3,12 +3,12 @@
 <h1><p align="center"> Cyborg </p></h1>
 
 
-A box involving encrypted archives, source code analysis and more.
-#### Room Link: <https://tryhackme.com/room/cyborgt8> By [@fieldraccoon](https://twitter.com/fieldraccoon)
+###A box involving encrypted archives, source code analysis and more.
+### Room Link: <https://tryhackme.com/room/cyborgt8> By [@fieldraccoon](https://twitter.com/fieldraccoon)
 
 
 ----------------------------------------------------------
-### Lets get Started...
+#### Lets get Started...
 
 ####  1. Nmap
 So first start with a simple nmap scan to know what ports are open and what
