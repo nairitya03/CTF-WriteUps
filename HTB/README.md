@@ -3,3 +3,5 @@
 [Hack The Box](https://www.hackthebox.eu/home) [Rooms](https://nairitya03.github.io/CTF-WriteUps/HTB/) 
 
 List of Rooms I solved:
+
+  - [Archetype](https://nairitya03.github.io/CTF-WriteUps/HTB/Archetype)

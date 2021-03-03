@@ -20,6 +20,7 @@
 
 [Hack The Box](https://www.hackthebox.eu/home) [Rooms](https://nairitya03.github.io/CTF-WriteUps/HTB/) 
 
+  - [Archetype](https://nairitya03.github.io/CTF-WriteUps/HTB/Archetype)
 
 
 
