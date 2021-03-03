@@ -72,7 +72,7 @@ And Bam!! we have Administrator Privileges.
 Move to Desktop and print out root.txt file.
 
 ```cmd
-type \user\Administrator\desktop\32 root.txt
+C:\WINDOWS\system32> type \user\Administrator\desktop\32 root.txt
 ```
 <p align="center"><img src="./Screenshots/6.png" width="550"></p>
 
