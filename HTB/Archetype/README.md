@@ -1,4 +1,4 @@
-<p align="center"><h1> Archetype </h1></p>
+<h1><p align="center"> Archetype </p></h1>
 
 ## Enumeration First ...
 
@@ -75,21 +75,4 @@ type \user\Administrator\desktop\32 root.txt
 <p align="center"><img src="./Screenshots/6.png" width="550"></p>
 
 **With that We Owned the Root.**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
