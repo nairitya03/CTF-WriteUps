@@ -51,6 +51,7 @@ And Boom!! we have a reverse shell. Stabllize the shell ```python
 # python3 -c "import pty;pty.spawn("/bin/bash")" ```
 
 Now lets get the user.txt flag on user\desktop and print it.
+
 <p align="center"><img src="./Screenshots/5.png" width="550"></p> 
 
 ## Time to Privsec -- 
@@ -71,6 +72,8 @@ Move to Desktop and print out root.txt file.
 ```cmd
 type \user\Administrator\desktop\32 root.txt
 ```
+<p align="center"><img src="./Screenshots/6.png" width="550"></p>
+
 **With that We Owned the Root.**
 
 
