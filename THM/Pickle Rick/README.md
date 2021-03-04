@@ -1,16 +1,10 @@
-<p align="center">
-<img src="https://tryhackme-images.s3.amazonaws.com/room-icons/47d2d3ade1795f81a155d0aca6e4da96.jpeg" width="240">
-<h1>Pickle Rick</h1>
-<h2>A Rick and Morty CTF. Help turn Rick back into a human!</h2>
-</P>
-
-### Recon... 
+<p align="center"><img src="https://tryhackme-images.s3.amazonaws.com/room-icons/47d2d3ade1795f81a155d0aca6e4da96.jpeg" width="240"><h1>Pickle Rick</h1><h2>A Rick and Morty CTF. Help turn Rick back into a human!</h2></P>
 
 So I began with nmap scan and port 22,80 is open.
 ```bash 
 $ sudo nmap -T4 -sC -sS 10.10.51.178 >nmap.out
 ```
-<p align="center"><img src="./Screenshots/1.png" width="240"></p>
+<p align="center"><img src="./Screenshots/1.png" width="540"></p>
 
 Lets visit the website on port 80 and Nothing intresting and after inspecting the source code there was a comment which had something intresting
 ```Username: R1ckRul3s```. Since its a website its worth checkcing robots.txt file, Weirdly it contains some random string ```Wubbalubbadubdub```.
@@ -18,13 +12,13 @@ Since it mentioned something about login there is a good chance of a login page 
 now i tired to brute force it with the username obatined before but after some time I recalled there was a weird text in robots.txt file
 With that as password and we are in!
 
-<p align="center"><img src="./Screenshots/2.png" width="240"></p>
+<p align="center"><img src="./Screenshots/2.png" width="540"></p>
 
 We have a Command Panel which reveals some intresting files, But we can't read with ```cat```. So next I tried with ```grep -r .``` 
 which will display contains of everything present in the directory. Looking around all I found firt ingredient
 ``` Sup3rS3cretPickl3Ingred.txt:mr. meeseek hair ```
 
-<p align="center"><img src="./Screenshots/3.png" width="240"></p>
+<p align="center"><img src="./Screenshots/3.png" width="540"></p>
 
 While looking further I found list of blacklisted commands.
 ```php
@@ -49,7 +43,7 @@ While looking further I found list of blacklisted commands.
     ?>
 ```
 Then I found a base64 string which turned out to be a Rabbit Hole! **ClASSIC**
-<p align="center"><img src="./Screenshots/4.png" width="240"></p>
+<p align="center"><img src="./Screenshots/4.png" width="540"></p>
 
 So I went back to Command Panel and thought to get a reverse shell. So Best options were using some one-liners.
 
