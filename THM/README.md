@@ -4,6 +4,7 @@
 
  List of Rooms/CTF I solved.
 
+  - [Pickle Rick](https://nairitya03.github.io/CTF-WriteUps/THM/Pickle%20Rick)
   - [C0ldd_BOX](https://nairitya03.github.io/CTF-WriteUps/THM/C0ldd_BOX)
   - [Chocolate Factory](https://nairitya03.github.io/CTF-WriteUps/THM/Chocolate%20Factory)
   - [Cyborg](https://nairitya03.github.io/CTF-WriteUps/THM/Cyborg/)
