@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='450' height="450"> </p>
+<p align="center"> <img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='450' height="370"> </p>
 
 [TryHackMe](https://tryhackme.com/) [Rooms](https://nairitya03.github.io/CTF-WriteUps/THM/) 
 
