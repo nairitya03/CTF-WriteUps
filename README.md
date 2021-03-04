@@ -1,8 +1,8 @@
 <p align="center"><img alt="Anonymous" src="./Anonymous.jpg" width ="1024" ></p>
 
-# CTF-WriteUps
+# <p align="center">CTF-WriteUps</p>
 
-**This Repository holds all MY CTF WriteUps and Walkthroughs.**
+<p align="center">This Repository holds all MY CTF WriteUps and Walkthroughs.</p>
 
 ************************
 <img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='110'>
