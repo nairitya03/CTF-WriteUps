@@ -2,7 +2,7 @@
 
 <h1> <p align="center">CTF-WriteUps</p></h1>
 
-<p align="center">This Repository holds all MY CTF WriteUps and Walkthroughs.</p>
+<h3><p align="center">This Repository holds all MY CTF WriteUps and Walkthroughs.</p></h3>
 
 ************************
 <img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='110'>
