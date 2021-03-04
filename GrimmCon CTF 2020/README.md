@@ -1,3 +1,5 @@
+<img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='1024'>
+
 <h1> <p align="center">  GrimmCon CTF - Writeup (2020)  </p></h1>
 
 It was My very first CTF competition ever and a Great Experience, I was so happy to even solve a few of them without Help/Hints.
