@@ -1,6 +1,6 @@
 <p align="center"><img alt="Anonymous" src="./Anonymous.jpg" width ="1024" ></p>
 
-# <p align="center">CTF-WriteUps</p>
+<h1> <p align="center">CTF-WriteUps</p></h1>
 
 <p align="center">This Repository holds all MY CTF WriteUps and Walkthroughs.</p>
 
