@@ -1,4 +1,4 @@
-<p align="center"><img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width="550"></p>
+<p align="center"><img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width="550" height="350"></p>
 
 <h1> <p align="center">  GrimmCon CTF - Writeup (2020)  </p></h1>
 
