@@ -8,3 +8,4 @@
   - [C0ldd_BOX](https://nairitya03.github.io/CTF-WriteUps/THM/C0ldd_BOX)
   - [Chocolate Factory](https://nairitya03.github.io/CTF-WriteUps/THM/Chocolate%20Factory)
   - [Cyborg](https://nairitya03.github.io/CTF-WriteUps/THM/Cyborg/)
+  - [Madeye's Castle](https://nairitya03.github.io/CTF-WriteUps/THM/Madeye's%20Castle/)

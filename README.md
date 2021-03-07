@@ -18,7 +18,7 @@
   - [C0ldd_BOX](https://nairitya03.github.io/CTF-WriteUps/THM/C0ldd_BOX)
   - [Chocolate Factory](https://nairitya03.github.io/CTF-WriteUps/THM/Chocolate%20Factory)
   - [Cyborg](https://nairitya03.github.io/CTF-WriteUps/THM/Cyborg/)
-
+  - [Madeye's Castle](https://nairitya03.github.io/CTF-WriteUps/THM/Madeye's%20Castle/)
 ************************
 <img src="https://www.recover-lost-files.us/wp-content/uploads/2019/06/Hacking-The-Box-con-Termux.jpg" width='140'> 
 

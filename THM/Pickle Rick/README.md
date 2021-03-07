@@ -1,6 +1,7 @@
 <p align="center"><img src="https://tryhackme-images.s3.amazonaws.com/room-icons/47d2d3ade1795f81a155d0aca6e4da96.jpeg" width="440"></p>
 <h1><p align="center">Pickle Rick</p></h1><h2><p align="center">A Rick and Morty CTF. Help turn Rick back into a human!</P></h2>
 
+### Room Link: [THM-Pickle Rick](https://tryhackme.com/room/picklerick) 
 
 So I began with nmap scan and port 22,80 is open.
 ```bash 
