@@ -1,10 +1,7 @@
 <p align="center"><img src="https://www.wclaymoody.com/blog/assets/images/madeyecastle/castle_main.png" width="340"></p>
 <h1><p align="center"> Madeye's Castle </p></h1>
 <h2><p align="center"> A boot2root box that is modified from a box used in CuCTF by the team at Runcode.ninja </p></h1>
-
-
-
-### Room Link: [THM-Madeye's Castle](https://tryhackme.com/room/madeyescastle)
+<h3><p align="center">Room Link: <a href='https://tryhackme.com/room/madeyescastle' target='_blank'>THM-Madeye's Castle </a></p></h3>
 
 So lets dive in...
 Began with a simple nmap scan to know about the target.
