@@ -95,13 +95,13 @@ sudo gobuster dir -u http://10.10.50.42/backup/ -w=/usr/share/wordlists/SecLists
 $ cat dir.backup.out 
 http://10.10.50.42/backup/email (Status: 200)
 ```
-<p align="center"><img src ="./Screenshots/1.png" width ="340"></p>
+<p align="center"><img src ="./Screenshots/1.png" width ="540"></p>
 
 Found that there is virtual website ```hogwartz-castle.thm``` so add target ip to ```/etc/hosts/``` which is a login page and doest have default creds.
 Lets try sql injections. Trying some basic injections we know its vulnerable to sql injections.
 So first intercept requests using burp and save it.
 
-<p align="center"><img src ="./Screenshots/2.png" width ="340"></p>
+<p align="center"><img src ="./Screenshots/2.png" width ="540"></p>
 
 Lets try sqlmap to know the type of working payloads.
 ```bash
@@ -138,7 +138,7 @@ This query gave a error response ```{"error":"The password for 1 is incorrect! 4
 Bruteforcing column names in burpsuite with query ```user=Fallen'+UNION+ALL+SELECT+1,2,3,+from+users--&password=hey```
 and found some column names.
  
-<p align="center"><img src ="./Screenshots/3.png" width ="340"></p>
+<p align="center"><img src ="./Screenshots/3.png" width ="540"></p>
 
 Now trying sql queries with found column names.
 ```
@@ -204,7 +204,7 @@ User harry may run the following commands on hogwartz-castle:
 So user harry can run pico as hermonine user. Lets Exploit it, visit [GTFOBins](https://gtfobins.github.io/) 
 and search for pico bin exploits.
 
-<p align="center"><img src ="./Screenshots/4.png" width ="340"></p>
+<p align="center"><img src ="./Screenshots/4.png" width ="540"></p>
 
 ```bash
 harry@hogwartz-castle:~$ sudo -u hermonine /usr/bin/pico
