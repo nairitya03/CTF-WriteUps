@@ -21,7 +21,7 @@ PORT    STATE SERVICE
 80/tcp  open  http
 |_http-title: Apache2 Ubuntu Default Page: Amazingly It works
 139/tcp open  netbios-ssn
-445/tcp open  microsoft-ds
+445/tcp open  microsoft-ds 
 
 ```
 We have smb port open lets explore that...
