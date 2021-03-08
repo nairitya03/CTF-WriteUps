@@ -23,29 +23,6 @@ PORT    STATE SERVICE
 139/tcp open  netbios-ssn
 445/tcp open  microsoft-ds
 
-Host script results:
-|_clock-skew: mean: 0s, deviation: 1s, median: 0s
-|_nbstat: NetBIOS name: HOGWARTZ-CASTLE, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
-| smb-os-discovery: 
-|   OS: Windows 6.1 (Samba 4.7.6-Ubuntu)
-|   Computer name: hogwartz-castle
-|   NetBIOS computer name: HOGWARTZ-CASTLE\x00
-|   Domain name: \x00
-|   FQDN: hogwartz-castle
-|_  System time: 2021-03-04T17:16:59+00:00
-| smb-security-mode: 
-|   account_used: guest
-|   authentication_level: user
-|   challenge_response: supported
-|_  message_signing: disabled (dangerous, but default)
-| smb2-security-mode: 
-|   2.02: 
-|_    Message signing enabled but not required
-| smb2-time: 
-|   date: 2021-03-04T17:16:59
-|_  start_date: N/A
-
-Nmap done: 1 IP address (1 host up) scanned in 53.17 seconds.
 ```
 We have smb port open lets explore that...
 ```bash
