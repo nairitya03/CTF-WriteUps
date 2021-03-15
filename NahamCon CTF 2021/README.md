@@ -1,4 +1,4 @@
-<p align="center"><img src ="naham_banner.png" ></p>
+<p align="center"><img src ="naham_banner.png" height="350" ></p>
 
 <h1> <p align="center"> NahamCon CTF - Writeup (2021) </p></h1>
 
