@@ -53,7 +53,7 @@ MsgBox("flag{f805593d933f5433f2a04f082f400d8c}")
 
 This was straight forward challenge, same as Read the Rules.
 
-<p align="center"> <img src="./Screenshots/4.jpg" width="450" ></p>
+<p align="center"> <img src="./Screenshots/4.png" width="450" ></p>
 
 This challenge revealed a mission category of challenges where to get to next challenge you have to solve the previous challenge.
 
@@ -61,18 +61,18 @@ This challenge revealed a mission category of challenges where to get to next ch
 
 This challenge gave a static website [Constellations](https://constellations.page/) to explore and find flags.
 
-<p align="center"> <img src="./Screenshots/5.jpg" width="450" ></p>
+<p align="center"> <img src="./Screenshots/5.png" width="450" ></p>
 
 So like any web challenge I started with looking for robots.txt and there it was url for next challenge and a flag.
 
-<p align="center"> <img src="./Screenshots/6.jpg" width="450" ></p>
+<p align="center"> <img src="./Screenshots/6.png" width="450" ></p>
 
 
 ### HTB Modules
 	
-	- Linux Fundamentals : This is more like a linux Fundamentals cource Provided as challenge by the HTB. Good for someone trying to brush up thier linux knowledge.
+- Linux Fundamentals : This is more like a linux Fundamentals cource Provided as challenge by the HTB. Good for someone trying to brush up thier linux knowledge.
 	
-	- Introduction to Web Applications : This is a web Fundamental cource Provided as challenge by the HTB. Good for someone trying to brush up thier  knowledge on Web Applications.
+- Introduction to Web Applications : This is a web Fundamental cource Provided as challenge by the HTB. Good for someone trying to brush up thier  knowledge on Web Applications.
 	
-	- Attacking Web Applications with Ffuf : This is an easy offencive cource Provided as challenge by the HTB. Good for someone trying to learn about fuzzing and tools.
+- Attacking Web Applications with Ffuf : This is an easy offencive cource Provided as challenge by the HTB. Good for someone trying to learn about fuzzing and tools.
  
