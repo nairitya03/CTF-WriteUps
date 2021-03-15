@@ -5,7 +5,7 @@
 <h3><p align="center">A Place for all MY CTF WriteUps and Walkthroughs.</p></h3>
 
 ************************
-<img src ="./NahamCon%20CTF%202021/naham_banner.png" width='210'>
+<img src ="./NahamCon%20CTF%202021/naham_banner.png" width='180'>
 
 [NahamCon 2021](https://nairitya03.github.io/CTF-WriteUps/NahamCon%20CTF%202021/)
 
