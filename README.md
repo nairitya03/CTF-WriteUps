@@ -1,4 +1,4 @@
-<p align="center"><img alt="Anonymous" src="./Anonymous.jpg" width ="800" ></p>
+<p align="center"><img alt="Anonymous" src="./Anonymous.jpg" width ="1024" ></p>
 
 <h1> <p align="center">CTF-WriteUps</p></h1>
 
