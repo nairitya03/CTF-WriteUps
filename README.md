@@ -1,11 +1,11 @@
-<p align="center"><img alt="Anonymous" src="./Anonymous.jpg" height="240" ></p>
+<p align="center"><img alt="Anonymous" src="./Anonymous.jpg" width="800" ></p>
 
 <h1> <p align="center">CTF-WriteUps</p></h1>
 
 <h3><p align="center">A Place for all MY CTF WriteUps and Walkthroughs.</p></h3>
 
 ************************
-<img src ="./NahamCon%20CTF%202021/naham_banner.png" width='110'>
+<img src ="./NahamCon%20CTF%202021/naham_banner.png" width='210'>
 
 [NahamCon 2021](https://nairitya03.github.io/CTF-WriteUps/NahamCon%20CTF%202021/)
 
