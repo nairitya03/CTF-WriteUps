@@ -29,7 +29,7 @@ flag{137288e960a3ae9b148e8a7db16a69b0}
 ```
 
 ### Pollex : 
-<p align="center"> <img src="./Screenshots/pollex.jpg" width="450" ></p>
+<p align="center"> <img src="./Screenshots/pollex.png" width="450" ></p>
 So I downloaded the file give when I visited the downloaded folder I saw a flag at the bottom of image now when opened iw was gone.
 I decided to screen shot the flag and clear it.  _flag{65c34a1ec121a286600ddd48fe36bc00}_
  
