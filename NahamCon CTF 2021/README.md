@@ -78,6 +78,6 @@ So like any web challenge I started with looking for robots.txt and there it was
  
  
  
- 
+<br>
 <h2><p align="center"> My Status : </p></h2>
 <p align="center"> <img src="./Screenshots/Stats.png" ></p>
