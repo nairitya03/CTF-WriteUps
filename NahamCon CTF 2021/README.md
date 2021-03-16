@@ -57,7 +57,7 @@ This was straight forward challenge, same as Read the Rules.
 
 This challenge revealed a mission category of challenges where to get to next challenge you have to solve the previous challenge.
 
-#### Bionic:
+#### Bionic :
 
 This challenge gave a static website [Constellations](https://constellations.page/) to explore and find flags.
 
@@ -68,7 +68,7 @@ So like any web challenge I started with looking for robots.txt and there it was
 <p align="center"> <img src="./Screenshots/6.png" width="450" ></p>
 
 
-### HTB Modules
+### HTB Modules :
 	
 - Linux Fundamentals : This is more like a linux Fundamentals cource Provided as challenge by the HTB. Good for someone trying to brush up thier linux knowledge.
 	
@@ -76,3 +76,5 @@ So like any web challenge I started with looking for robots.txt and there it was
 	
 - Attacking Web Applications with Ffuf : This is an easy offencive cource Provided as challenge by the HTB. Good for someone trying to learn about fuzzing and tools.
  
+## My Status :
+<p align="center"> <img src="./Screenshots/stats.png" width="450" ></p>
