@@ -76,5 +76,8 @@ So like any web challenge I started with looking for robots.txt and there it was
 	
 - Attacking Web Applications with Ffuf : This is an easy offencive cource Provided as challenge by the HTB. Good for someone trying to learn about fuzzing and tools.
  
-<p align="center"><h2> My Status : </h2></p>
+ 
+ 
+ 
+<h2><p align="center"> My Status : </p></h2>
 <p align="center"> <img src="./Screenshots/Stats.png" ></p>
