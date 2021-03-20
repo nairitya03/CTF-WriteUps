@@ -11,13 +11,13 @@
 
 ************************
 
-<img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='110'>
+<img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='210'>
 
 [GrimmCon 2020](https://nairitya03.github.io/CTF-WriteUps/GrimmCon%20CTF%202020/)
 
 *************************
 
-<img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='140'> 
+<img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='240'> 
 
 [TryHackMe](https://tryhackme.com/) [Rooms](https://nairitya03.github.io/CTF-WriteUps/THM/) 
 
@@ -30,7 +30,7 @@
   
 ************************
 
-<img src="https://www.recover-lost-files.us/wp-content/uploads/2019/06/Hacking-The-Box-con-Termux.jpg" width='140'> 
+<img src="https://www.recover-lost-files.us/wp-content/uploads/2019/06/Hacking-The-Box-con-Termux.jpg" width='340'> 
 
 [Hack The Box](https://www.hackthebox.eu/) [Rooms](https://nairitya03.github.io/CTF-WriteUps/HTB/) 
 
