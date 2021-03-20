@@ -11,7 +11,7 @@
 
 ************************
 
-<img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='210' height='180'>
+<img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='310' height='180'>
 
 [GrimmCon 2020](https://nairitya03.github.io/CTF-WriteUps/GrimmCon%20CTF%202020/)
 
