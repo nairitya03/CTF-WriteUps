@@ -5,13 +5,13 @@
 <h3><p align="center">A Place for all MY CTF WriteUps and Walkthroughs.</p></h3>
 
 ************************
-<img src ="./NahamCon%20CTF%202021/naham_banner.png" width='180'>
+<img src ="./NahamCon%20CTF%202021/naham_banner.png" width='280'>
 
 [NahamCon 2021](https://nairitya03.github.io/CTF-WriteUps/NahamCon%20CTF%202021/)
 
 ************************
 
-<img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='210'>
+<img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='210' height='180'>
 
 [GrimmCon 2020](https://nairitya03.github.io/CTF-WriteUps/GrimmCon%20CTF%202020/)
 
