@@ -23,6 +23,7 @@
 
   - [Pickle Rick](https://nairitya03.github.io/CTF-WriteUps/THM/Pickle%20Rick)
   - [Simple CTF](https://nairitya03.github.io/CTF-WriteUps/THM/Easy%20CTF)
+  - [RootME](https://nairitya03.github.io/CTF-WriteUps/THM/RootME)
   - [C0ldd_BOX](https://nairitya03.github.io/CTF-WriteUps/THM/C0ldd_BOX)
   - [Chocolate Factory](https://nairitya03.github.io/CTF-WriteUps/THM/Chocolate%20Factory)
   - [Cyborg](https://nairitya03.github.io/CTF-WriteUps/THM/Cyborg/)
