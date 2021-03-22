@@ -11,13 +11,13 @@
 
 ************************
 
-<img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='250' height='180'>
+<img src ="https://www.trustedsec.com/wp-content/uploads/2020/04/GrimmCon.png" width='260' height='200'>
 
 [GrimmCon 2020](https://nairitya03.github.io/CTF-WriteUps/GrimmCon%20CTF%202020/)
 
 *************************
 
-<img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='350' height='240'> 
+<img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/af7feb2c43a2c7d5f111b98ccbd15048.png" width='290' height='210'> 
 
 [TryHackMe](https://tryhackme.com/) [Rooms](https://nairitya03.github.io/CTF-WriteUps/THM/) 
 
