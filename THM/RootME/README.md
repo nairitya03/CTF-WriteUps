@@ -1,5 +1,5 @@
 <p align="center"><img src="./Cover.png" width="310" ></p>
-<h1><p align="center">Simple CTF : </h1><h2> A ctf for beginners, can you root me?</h2></p>
+<h1><p align="center">Simple CTF : </p></h1><h2><p align="center"> A ctf for beginners, can you root me?</h2></p>
 
 ### Room Link: [RootMe](https://tryhackme.com/room/rrootme) 
 
